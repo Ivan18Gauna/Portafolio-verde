@@ -2,7 +2,7 @@ import { SiJavascript, SiTailwindcss } from "react-icons/si";
 import { RiReactjsLine } from "react-icons/ri";
 function Skills() {
   return (
-    <div className="pb-80 pt-52">
+    <div className="pb-32 pt-32">
       <div className="mb-20">
         <span className="font-bold text-4xl ml-20">Tech Stack</span>
       </div>

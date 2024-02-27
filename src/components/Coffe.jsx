@@ -8,8 +8,8 @@ const Coffe = () => {
         />
       </div>
       <div className="flex items-start justify-start flex-col w-full text-center pt-60 mx-32 ">
-        <h1 className="text-4xl font-bold mb-2 ml-64">Codigo + Coffe</h1>
-        <p className="text-lg mb-2 px-32">
+        <h1 className="text-4xl font-bold mb-2 ml-32">Codigo + Coffe</h1>
+        <p className="text-xg mb-2 px-32">
           Me destaco por mis proyectos, donde fusiono la destreza técnica con la
           habilidad de trabajar en equipo. Enfrenté el desafío de liderar un
           equipo, establecer metas concretas y adoptar Scrum, marcando mi

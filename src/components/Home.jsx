@@ -41,8 +41,8 @@ const Home = () => {
   }, [currentText, texts]);
   return (
     <div className="flex items-start justify-center bg-emerald-100 h-screen">
-      <div className="flex items-start justify-start flex-col w-full text-center pt-72 pl-40 ">
-        <h1 className="text-7xl font-bold mb-6">
+      <div className="flex items-start justify-start flex-col w-full text-center pt-72 pl-20 ">
+        <h1 className="text-5xl font-bold mb-6">
           Hola, soy
           <span className="text-gray-500">{currentText}</span>
         </h1>
@@ -79,7 +79,7 @@ const Home = () => {
           </button>
         </div>
       </div>
-      <div className="mt-60 pr-80">
+      <div className="mt-60 pr-60">
         <img
           src="https://react-vite-proj-18-tailwind-portfolio.netlify.app/assets/hero-01dff752.svg"
           alt="Imagen"
