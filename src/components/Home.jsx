@@ -1,16 +1,16 @@
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaWhatsapp } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import { useState, useEffect } from "react";
 const Home = () => {
   useEffect(() => {
     // Función para habilitar el desplazamiento suave
     const enableSmoothScroll = () => {
-      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
           e.preventDefault();
 
-          document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
+          document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
           });
         });
       });
@@ -21,8 +21,8 @@ const Home = () => {
 
     // Limpieza del evento al desmontar el componente
     return () => {
-      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.removeEventListener('click', function () {});
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.removeEventListener("click", function () {});
       });
     };
   }, []);
@@ -71,12 +71,21 @@ const Home = () => {
               <FaGithub />
             </button>
           </a>
-
+          {/* FaWhatsapp */}
           <button className="px-4 py-2 text-slate-500 hover:text-black text-5xl">
             <a href="#section5">
               <IoMdMail />
             </a>
-          </button>
+          </button>{" "}
+          <a
+            href="https://wa.link/p8a0ex"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="px-4 py-2 text-slate-500 hover:text-black text-5xl">
+              <FaWhatsapp />
+            </button>
+          </a>
         </div>
       </div>
       <div className="mt-60 pr-60">

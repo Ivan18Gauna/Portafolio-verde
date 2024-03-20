@@ -18,10 +18,10 @@ export function Webs() {
             CSS, React y JavaScript para desarrollar interfaces eficientes.
             Implementamos metodologías Scrum, dividiendo el trabajo en sprints
             para una gestión ágil, asegurando entregas efectivas y colaboración
-            constante con el equipo.
+            constante con el equipo...
           </p>
           <a
-            href="https://www.linkedin.com/in/ivangauna/"
+            href="https://www.youtube.com/watch?v=G_hl6WC4OS4"
             target="_blank"
             rel="noreferrer"
           >
@@ -30,7 +30,7 @@ export function Webs() {
             </button>
           </a>
           <a
-            href="https://www.linkedin.com/in/ivangauna/"
+            href="https://github.com/Ivan18Gauna/app-clinica"
             target="_blank"
             rel="noreferrer"
           >
@@ -54,7 +54,7 @@ export function Webs() {
             efectivas con estas tecnologías.
           </p>
           <a
-            href="https://www.linkedin.com/in/ivangauna/"
+            href="https://web-store-lilac.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
@@ -62,7 +62,7 @@ export function Webs() {
             <AiOutlineGlobal />
             </button>
           </a> <a
-            href="https://www.linkedin.com/in/ivangauna/"
+            href="https://github.com/Ivan18Gauna/web-store"
             target="_blank"
             rel="noreferrer"
           >
@@ -87,7 +87,7 @@ export function Webs() {
             front-end atractivas y funcionales.
           </p>
           <a
-            href="https://www.linkedin.com/in/ivangauna/"
+            href="https://app-pelis.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
@@ -95,7 +95,7 @@ export function Webs() {
             <AiOutlineGlobal />
             </button>
           </a><a
-            href="https://www.linkedin.com/in/ivangauna/"
+            href="https://github.com/Ivan18Gauna/app-pelis"
             target="_blank"
             rel="noreferrer"
           >
