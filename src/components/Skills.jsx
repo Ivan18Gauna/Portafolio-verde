@@ -4,7 +4,7 @@ function Skills() {
   return (
     <div className="pb-32 pt-32">
       <div className="mb-20">
-        <span className="font-bold text-4xl ml-20">Tech Stack</span>
+        <span className="font-bold text-4xl ml-20">Skills</span>
       </div>
       <div className="flex justify-between">
         <div className="mx-20">

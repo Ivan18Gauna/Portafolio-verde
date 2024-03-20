@@ -2,13 +2,14 @@ import { AiOutlineGlobal,AiOutlineGithub  } from "react-icons/ai";
 export function Webs() {
   return (
     <div className="py-40">
-      <span className="font-bold text-4xl ml-20">Webs</span>
+      <span className="font-bold text-4xl ml-20">Proyects</span>
       <div className="flex mt-10">
         <div className="px-10">
           <img
             src="https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800"
             alt=""
-            className="w-80"
+            className="w-80 transition-transform transform-gpu hover:scale-110"
+
           />
           <h1>Proyecto grupal</h1>
           <p>
@@ -42,7 +43,7 @@ export function Webs() {
           <img
             src="https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800"
             alt=""
-            className="w-80"
+            className="w-80 transition-transform transform-gpu hover:scale-110"
           />
           <h1>Ecommerce</h1>
           <p>
@@ -74,7 +75,8 @@ export function Webs() {
           <img
             src="https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800"
             alt=""
-            className="w-80"
+            className="w-80 transition-transform transform-gpu hover:scale-110"
+
           />
           <h1>App de peliculas</h1>
           <p>
