@@ -101,7 +101,7 @@ function Navbar() {
   };
 
   return (
-    <nav>
+    <nav className="navbar-container fixed top-0 left-0 w-full z-50 bg-white shadow-lg">
       <div className="p-8 bg-emerald-100">
         <div className="container mx-auto flex items-center justify-between">
           <div className="flex text-3xl font-bold">

@@ -32,7 +32,7 @@ export const Mail = () => {
         user_email: "",
         user_message: "",
       });
-      alert("Su mensaje fu enviado con exito");
+      alert("Su mensaje fue enviado con exito.");
     } else {
       alert("Todos los campos deven ser completados");
     }
